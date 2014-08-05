@@ -7,7 +7,7 @@ title: Image Gallery
 	{% for gallery in site.data.galleries %}
 	<li>
 		<a href="/Gallery/galleries/{{ gallery.id }}" title="{{ gallery.id }}">
-			<img src="{{ gallery.imagefolder }}/image 1.jpg">
+			<img src="/Gallery/{{ gallery.imagefolder }}/image 1.jpg">
 			<p>{{ gallery.description }}</p>
 		</a>
 	</li>

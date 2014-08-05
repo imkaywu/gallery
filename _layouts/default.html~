@@ -38,7 +38,7 @@
                     <span><a title="Tags" href="/nav/tags.html"><i class="fa fa-tags"></i></a></span>
                     <span><a title="Publication" href="/nav/publication.html"><i class="fa fa-book"></i></a></span>
                     <span><a title="Projects" href="/nav/projects"><i class="fa fa-code"></i></a></span>
-                    <span><a title="Galleries" href="{{ site.url }}/Gallery/"><i class="fa fa-picture-o"></i></a></span>
+                    <span><a title="Galleries" href="/nav/galleries"><i class="fa fa-picture-o"></i></a></span>
                     <span><a title="Subscribe" href="/nav/atom.xml"><i class="fa fa-rss"></i></a></span>
                 </nav>
             </header>
