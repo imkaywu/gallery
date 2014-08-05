@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<!--
+    layout file for each photo galley
+-->
+<script src="/assets/js/jquery-1.7.1.min.js"></script>
+<script src="/assets/js/lightbox.min.js"></script>
+<link href="/assets/css/lightbox.css" rel="stylesheet" />
+
+{% for gallery in site.data.galleries %}
+  {% if gallery.id == page.galleryid %}
+    <h2>{{ gallery.description }}</h2>
+    <ul class = "rig columns-3">
+    {% for image in gallery.images %}
+      <li>
+        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
+            <img src="{{ gallery.imagefolder }}/{{ image.name }}">
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
