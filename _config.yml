@@ -1,6 +1,0 @@
-baseurl: /Gallery
-markdown: rdiscount
-highlighter: pygments
-permalink: /:year/:month/:day/:title.html
-title: "Kay's teck blog"
-name: "Black N' K"
