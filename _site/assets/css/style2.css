@@ -16,6 +16,7 @@ body {
     padding: 0;
     font-size: 100%;
     color: #333;
+    min-width: 1000px;
 }
 
 /*****************************************
@@ -92,7 +93,7 @@ code {
     background-color: #ccc;
     padding: 2px, 4px;
 }
-.highlight pre code {
+.highlight pre code, .highlight pre code span.title {
     font-family: inconsolata;
     font-size: 0.875em;
     line-height: 1.15em;
@@ -374,3 +375,8 @@ ul.project span a:hover {
     border: 1px solid crimson;
     background-color: crimson;
 }
+
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
