@@ -323,6 +323,11 @@ ul.rig.columns-4 li {
     }
 }
 
+/*link border*/
+.lb-nav a.lb-next, .lb-nav a.lb-prev {
+    border: none;
+}
+
 /**********************************
 * Project
 **********************************/
