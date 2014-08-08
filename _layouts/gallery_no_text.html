@@ -14,7 +14,7 @@ layout: default
     <ul class = "rig columns-3">
     {% for image in gallery.images %}
       <li>
-        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
+        <a href="/Gallery{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
             <img src="/Gallery{{ gallery.imagefolder }}/{{ image.name }}">
         </a>
       </li>

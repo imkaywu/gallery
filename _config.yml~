@@ -1,4 +1,3 @@
-url: "http://imkaywu.com"
 baseurl: /Gallery
 markdown: rdiscount
 highlighter: pygments
